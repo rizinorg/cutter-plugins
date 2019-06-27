@@ -18,7 +18,7 @@ Want to build your own Plugin for Cutter, or to port an existing one? Follow the
     - [Cutter Lighthouse](#Cutter-Lighthouse)
   - [Enhancements](#Enhancements)
     - [Assembly-reference](#Assembly-reference)
-  - [Recovering Stack Strings](#Recovering-Stack-Strings)
+    - [Recovering Stack Strings](#Recovering-Stack-Strings)
   - [Graphs](#Graphs)
     - [Cutter Deep Graphs](#Cutter-Deep-Graphs)
   - [Misc](#Misc)
@@ -89,7 +89,7 @@ A plugin for Cutter that shows the information about the assembly instruction cu
 **Type**: Plugin  
 **Status**: Maintained
 
-## [Recovering Stack Strings](https://github.com/securitykitten/cutter_scripts/blob/master/scripts/cutter_stackstrings.py)
+### [Recovering Stack Strings](https://github.com/securitykitten/cutter_scripts/blob/master/scripts/cutter_stackstrings.py)
 
 Cutter script to comment value of strings that were manually created on the stack.
 
