@@ -1,5 +1,5 @@
 # Cutter Plugins
-This is a curated list of **Plugins** and **Scripts** written for the reverse engineering platfomr - Cutter.
+This is a curated list of **Plugins** and **Scripts** written for the reverse engineering platform - Cutter.
 
 Want to build your own Plugin for Cutter, or to port an existing one? Follow the tutorial in the official documentation: https://cutter.re/docs/plugins.html
 
@@ -45,7 +45,7 @@ junk blocks from APT32 (Ocean Lotus) samples.
 
 
 ### [Dropshot / StoneDrill Decrypter](https://github.com/ITAYC0HEN/A-journey-into-Radare2/blob/master/Part%203%20-%20Malware%20analysis/decrypt_dropshot.py)
-This is a r2pipe based script which is used to decypt strings and resources in the Dropshot APT malware.
+This is an r2pipe based script that is used to decrypt strings and resources in the Dropshot APT malware.
 
 **Status**: Maintained  
 **Articles**: 
@@ -58,7 +58,7 @@ This is a r2pipe based script which is used to decypt strings and resources in t
 ## Coverage
 
 ### [CutterDRcov](https://github.com/oddcoder/CutterDRcov)
-CutterDrcov is code coverage plugin that visualize DynamoRIO drcov into Cutter static analysis.
+CutterDrcov is code coverage plugin that visualizes DynamoRIO drcov into Cutter static analysis.
 
 **Status**: Maintained  
 
@@ -73,7 +73,7 @@ This is still a work in progress on this [Pull Request](https://github.com/gaase
 
 ### [Assembly-reference](https://github.com/daringjoker/Assembly-refrence)
 
-A plugin for Cutter that show the information about the assembly instruction currently selected (only for x86 and x64)
+A plugin for Cutter that shows the information about the assembly instruction currently selected (only for x86 and x64)
 
 **Status**: Maintained
 
