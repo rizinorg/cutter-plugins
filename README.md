@@ -6,7 +6,9 @@ Want to build your own Plugin for Cutter, or to port an existing one? Follow the
 
 ## Table of Contents
 - [Cutter Plugins](#Cutter-Plugins)
-  - [Table of Contents](#Table-of-Contents)
+  - [Decompilers](#Integrations)
+    - [Ghidra Decompiler](#Ghidra-Decompiler)
+    - [r2dec](#r2dec)
   - [Integrations](#Integrations)
     - [Jupyter Plugin](#Jupyter-Plugin)
   - [Malware Analysis](#Malware-Analysis)
@@ -24,6 +26,24 @@ Want to build your own Plugin for Cutter, or to port an existing one? Follow the
   - [Misc](#Misc)
     - [Cutter plugin templates](#Cutter-plugin-templates)
 ---
+
+## Decompilers
+
+### [Ghidra Decompiler](https://github.com/thestr4ng3r/r2ghidra-dec)
+This is an integration of the Ghidra decompiler for Cutter and radare2. It is solely based on the decompiler part of Ghidra, which is written entirely in C++, so neither Ghidra itself nor JAVA are required at all and the plugin can be built self-contained.
+
+Due to its quality, the ghidra decompiler plugin is shipped by default in Cutter releases.
+
+**Type**: Plugin  
+**Status**: Maintained  
+**Reference**: [r2ghidra plugin announced in Cutter v1.9](https://twitter.com/r2gui/status/1169912280001208321)
+
+### [r2dec](https://github.com/wargio/r2dec-js)
+r2dec converts the assembly of a function to a Pseudo-C code. Cutter integrates r2dec by default. 
+
+**Type**: Plugin  
+**Status**: Maintained  
+**Talk**: [How not to write a decompiler - r2con 2018](https://www.youtube.com/watch?v=2siU7B0PjPI)
 
 ## Integrations
 ### [Jupyter Plugin](https://github.com/radareorg/cutter-jupyter  )
