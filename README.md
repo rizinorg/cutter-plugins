@@ -29,7 +29,7 @@ Want to build your own Plugin for Cutter, or to port an existing one? Follow the
 
 ## Decompilers
 
-### [Ghidra Decompiler](https://github.com/thestr4ng3r/r2ghidra-dec)
+### [Ghidra Decompiler](https://github.com/radareorg/r2ghidra-dec)
 This is an integration of the Ghidra decompiler for Cutter and radare2. It is solely based on the decompiler part of Ghidra, which is written entirely in C++, so neither Ghidra itself nor JAVA are required at all and the plugin can be built self-contained.
 
 Due to its quality, the ghidra decompiler plugin is shipped by default in Cutter releases.
