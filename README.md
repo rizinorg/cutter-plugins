@@ -1,30 +1,33 @@
 # Cutter Plugins
 This is a curated list of **Plugins** and **Scripts** written for the reverse engineering platform - Cutter.
 
-Want to build your own Plugin for Cutter, or to port an existing one? Follow the tutorial in the official documentation: https://cutter.re/docs/plugins.html
+Want to build your own Plugin for Cutter, or to port an existing one from other disassemblers? It is easy! Follow the tutorial in the official documentation: https://cutter.re/docs/plugins.html
 
 
 ## Table of Contents
-- [Cutter Plugins](#Cutter-Plugins)
-  - [Decompilers](#Integrations)
-    - [Ghidra Decompiler](#Ghidra-Decompiler)
+- [Cutter Plugins](#cutter-plugins)
+  - [Table of Contents](#table-of-contents)
+  - [- Cutter plugin templates](#--cutter-plugin-templates)
+  - [Decompilers](#decompilers)
+    - [Ghidra Decompiler](#ghidra-decompiler)
     - [r2dec](#r2dec)
-  - [Integrations](#Integrations)
-    - [Jupyter Plugin](#Jupyter-Plugin)
-  - [Malware Analysis](#Malware-Analysis)
-    - [APT32 Graph Deobfuscator](#APT32-Graph-Deobfuscator)
-    - [Dropshot / StoneDrill Decrypter](#Dropshot--StoneDrill-Decrypter)
-    - [Deobfuscate Bitpaymer API Calls](#Deobfuscate-Bitpaymer-API-Calls)
-  - [Coverage](#Coverage)
-    - [CutterDRcov](#CutterDRcov)
-    - [Cutter Lighthouse](#Cutter-Lighthouse)
-  - [Enhancements](#Enhancements)
-    - [Assembly-reference](#Assembly-reference)
-    - [Recovering Stack Strings](#Recovering-Stack-Strings)
-  - [Graphs](#Graphs)
-    - [Cutter Deep Graphs](#Cutter-Deep-Graphs)
-  - [Misc](#Misc)
-    - [Cutter plugin templates](#Cutter-plugin-templates)
+  - [Integrations](#integrations)
+    - [Jupyter Plugin](#jupyter-plugin)
+  - [Malware Analysis](#malware-analysis)
+    - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
+    - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
+    - [Deobfuscate Bitpaymer API Calls](#deobfuscate-bitpaymer-api-calls)
+  - [Coverage](#coverage)
+    - [CutterDRcov](#cutterdrcov)
+    - [Cutter Lighthouse](#cutter-lighthouse)
+  - [Enhancements](#enhancements)
+    - [CutterRef](#cutterref)
+    - [Assembly-reference](#assembly-reference)
+    - [Recovering Stack Strings](#recovering-stack-strings)
+  - [Graphs](#graphs)
+    - [Cutter Deep Graphs](#cutter-deep-graphs)
+  - [Misc](#misc)
+    - [Cutter plugin templates](#cutter-plugin-templates)
 ---
 
 ## Decompilers
@@ -101,6 +104,13 @@ This is still a work in progress on this [Pull Request](https://github.com/gaase
 
 
 ## Enhancements
+
+### [CutterRef](https://github.com/yossizap/cutterref)
+
+Cutter Full Instruction Reference Plugin. The plugin will monitor the location for your cursor and display the full documentation of the instruction. At the moment it only supports x86-64, ARM and MIPS 32bit, however adding support for other architectures is relatively easy.
+
+**Type**: Plugin  
+**Status**: Maintained
 
 ### [Assembly-reference](https://github.com/daringjoker/Assembly-refrence)
 
