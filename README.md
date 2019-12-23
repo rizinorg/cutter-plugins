@@ -13,6 +13,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
     - [r2dec](#r2dec)
   - [Integrations](#integrations)
     - [Jupyter Plugin](#jupyter-plugin)
+    - [x64dbgcutter](#x64dbgcutter)
   - [Malware Analysis](#malware-analysis)
     - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
     - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
@@ -55,7 +56,11 @@ This plugin integrates the Jupyter notebook inside Cutter
 
 **Status**: Maintained  
 
+### [x64dbgcutter](https://github.com/yossizap/x64dbgcutter)
 
+Allows the import and export of x64dbg comments and breakpoints in Cutter
+
+**Status**: Maintained
 
 ## Malware Analysis
 
