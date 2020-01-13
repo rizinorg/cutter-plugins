@@ -14,6 +14,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
   - [Integrations](#integrations)
     - [Jupyter Plugin](#jupyter-plugin)
     - [x64dbgcutter](#x64dbgcutter)
+    - [Yara Plugin](#yara-plugin)
   - [Malware Analysis](#malware-analysis)
     - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
     - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
@@ -59,6 +60,12 @@ This plugin integrates the Jupyter notebook inside Cutter
 ### [x64dbgcutter](https://github.com/yossizap/x64dbgcutter)
 
 Allows the import and export of x64dbg comments and breakpoints in Cutter
+
+**Status**: Maintained
+
+### [Yara Plugin](https://github.com/JannisKirschner/Cutter-Yara-Plugin)
+
+A Cutter plugin to match project with Yara rules at runtime. 
 
 **Status**: Maintained
 
@@ -130,7 +137,6 @@ Cutter script to comment value of strings that were manually created on the stac
 
 **Type**: Script  
 **Status**: Maintained
-
 
 
 ## Graphs
