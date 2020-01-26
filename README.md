@@ -15,6 +15,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
     - [Jupyter Plugin](#jupyter-plugin)
     - [x64dbgcutter](#x64dbgcutter)
     - [Yara Plugin](#yara-plugin)
+    - [AngrCutter](#angrcutter)
   - [Malware Analysis](#malware-analysis)
     - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
     - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
@@ -66,6 +67,12 @@ Allows the import and export of x64dbg comments and breakpoints in Cutter
 ### [Yara Plugin](https://github.com/JannisKirschner/Cutter-Yara-Plugin)
 
 A Cutter plugin to match project with Yara rules at runtime. 
+
+**Status**: Maintained
+
+### [AngrCutter](https://github.com/yossizap/angrcutter)
+
+A plugin that adds dynamic symbolic execution to Cutter's debugger using Angr.
 
 **Status**: Maintained
 
