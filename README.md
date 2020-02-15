@@ -7,9 +7,9 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
 ## Table of Contents
 - [Cutter Plugins](#cutter-plugins)
   - [Table of Contents](#table-of-contents)
-  - [- Cutter plugin templates](#--cutter-plugin-templates)
   - [Decompilers](#decompilers)
     - [Ghidra Decompiler](#ghidra-decompiler)
+    - [RetDec Decompiler](#retdec-decompiler)
     - [r2dec](#r2dec)
   - [Integrations](#integrations)
     - [Jupyter Plugin](#jupyter-plugin)
@@ -43,6 +43,18 @@ Due to its quality, the ghidra decompiler plugin is shipped by default in Cutter
 **Type**: Plugin  
 **Status**: Maintained  
 **Reference**: [r2ghidra plugin announced in Cutter v1.9](https://twitter.com/r2gui/status/1169912280001208321)
+
+### [RetDec Decompiler](https://github.com/avast/retdec-r2plugin)
+The plugin integrates RetDec decompiler into Cutter.
+
+With the bundled version of RetDec you can decompile the following architectures:
+
+   - 32-bit: Intel x86, ARM, MIPS, PIC32, and PowerPC.
+   - 64-bit: x86-64, ARM64 (AArch64).
+  
+**Type**: Plugin  
+**Status**: Maintained  
+
 
 ### [r2dec](https://github.com/wargio/r2dec-js)
 r2dec converts the assembly of a function to a Pseudo-C code. Cutter integrates r2dec by default. 
