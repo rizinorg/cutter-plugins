@@ -91,7 +91,7 @@ A plugin that adds dynamic symbolic execution to Cutter's debugger using Angr.
 
 ### [Hobbits Plugin](https://github.com/Mahlet-Inc/hobbits-cutter-plugin)
 
-A plugin that adds [Hobbits](https://github.com/Mahlet-Inc/hobbits) displays to to Cutter.
+A plugin that adds [Hobbits](https://github.com/Mahlet-Inc/hobbits) displays to Cutter.
 
 **Status**: WIP
 
