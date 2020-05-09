@@ -16,6 +16,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
     - [x64dbgcutter](#x64dbgcutter)
     - [Yara Plugin](#yara-plugin)
     - [AngrCutter](#angrcutter)
+    - [Hobbits Plugin](#hobbits-plugin)
   - [Malware Analysis](#malware-analysis)
     - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
     - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
@@ -87,6 +88,12 @@ A Cutter plugin to match project with Yara rules at runtime.
 A plugin that adds dynamic symbolic execution to Cutter's debugger using Angr.
 
 **Status**: Maintained
+
+### [Hobbits Plugin](https://github.com/Mahlet-Inc/hobbits-cutter-plugin)
+
+A plugin that adds [Hobbits](https://github.com/Mahlet-Inc/hobbits) displays to Cutter.
+
+**Status**: WIP
 
 ## Malware Analysis
 
