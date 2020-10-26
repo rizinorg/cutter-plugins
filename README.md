@@ -17,6 +17,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
     - [Yara Plugin](#yara-plugin)
     - [AngrCutter](#angrcutter)
     - [Hobbits Plugin](#hobbits-plugin)
+    - [Capa Explorer](#capa-explorer)
   - [Malware Analysis](#malware-analysis)
     - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
     - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
@@ -94,6 +95,13 @@ A plugin that adds dynamic symbolic execution to Cutter's debugger using Angr.
 A plugin that adds [Hobbits](https://github.com/Mahlet-Inc/hobbits) displays to Cutter.
 
 **Status**: WIP
+
+### [Capa Explorer](https://github.com/ninewayhandshake/capa-explorer)
+Capa is a framework that uses a well-defined collection of rules to identify capabilities in a program. You can run the plugin against a PE file or shellcode and it tells you what it thinks the program can do.
+
+**Type**: Plugin  
+**Status**: Maintained
+
 
 ## Malware Analysis
 
