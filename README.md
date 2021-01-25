@@ -87,7 +87,7 @@ A Cutter plugin to match project with Yara rules at runtime.
 
 ### [Hyara](https://github.com/hyuunnn/Hyara)
 
-Hyara is plugin that provides convenience when writing yararule.
+Hyara is a plugin that makes it convenient to write and test Yara rules from inside Cutter.
 
 **Type**: Plugin  
 **Status**: WIP
