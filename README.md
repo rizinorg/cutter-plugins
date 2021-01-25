@@ -15,6 +15,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
     - [Jupyter Plugin](#jupyter-plugin)
     - [x64dbgcutter](#x64dbgcutter)
     - [Yara Plugin](#yara-plugin)
+    - [Hyara](#Hyara)
     - [AngrCutter](#angrcutter)
     - [Hobbits Plugin](#hobbits-plugin)
     - [Capa Explorer](#capa-explorer)
@@ -83,6 +84,13 @@ Allows the import and export of x64dbg comments and breakpoints in Cutter
 A Cutter plugin to match project with Yara rules at runtime. 
 
 **Status**: Maintained
+
+### [Hyara](https://github.com/hyuunnn/Hyara)
+
+Hyara is plugin that provides convenience when writing yararule.
+
+**Type**: Plugin  
+**Status**: WIP
 
 ### [AngrCutter](https://github.com/yossizap/angrcutter)
 
