@@ -38,16 +38,15 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
 
 ## Decompilers
 
-### [Ghidra Decompiler](https://github.com/radareorg/r2ghidra-dec)
-This is an integration of the Ghidra decompiler for Cutter and radare2. It is solely based on the decompiler part of Ghidra, which is written entirely in C++, so neither Ghidra itself nor JAVA are required at all and the plugin can be built self-contained.
+### [Ghidra Decompiler](https://github.com/rizinorg/rz-ghidra)
+This is an integration of the Ghidra decompiler for Cutter and rizin. It is solely based on the decompiler part of Ghidra, which is written entirely in C++, so neither Ghidra itself nor JAVA are required at all and the plugin can be built self-contained.
 
 Due to its quality, the ghidra decompiler plugin is shipped by default in Cutter releases.
 
 **Type**: Plugin  
 **Status**: Maintained  
-**Reference**: [r2ghidra plugin announced in Cutter v1.9](https://twitter.com/r2gui/status/1169912280001208321)
 
-### [RetDec Decompiler](https://github.com/avast/retdec-r2plugin)
+### [RetDec Decompiler](https://github.com/rizinorg/rz-retdec)
 The plugin integrates RetDec decompiler into Cutter.
 
 With the bundled version of RetDec you can decompile the following architectures:
@@ -59,15 +58,15 @@ With the bundled version of RetDec you can decompile the following architectures
 **Status**: Maintained  
 
 
-### [r2dec](https://github.com/wargio/r2dec-js)
-r2dec converts the assembly of a function to a Pseudo-C code. Cutter integrates r2dec by default. 
+### [jsdec](https://github.com/rizinorg/jsdec)
+JSdec converts the assembly of a function to a Pseudo-C code. Cutter integrates jsdec by default. 
 
 **Type**: Plugin  
 **Status**: Maintained  
 **Talk**: [How not to write a decompiler - r2con 2018](https://www.youtube.com/watch?v=2siU7B0PjPI)
 
 ## Integrations
-### [Jupyter Plugin](https://github.com/radareorg/cutter-jupyter  )
+### [Jupyter Plugin](https://github.com/rizinorg/cutter-jupyter)
 
 This plugin integrates the Jupyter notebook inside Cutter
 
@@ -191,7 +190,7 @@ A Cutter plugin to generate radare2 graphs. It also provides a new graph called 
 
 
 ## Misc
-### [Cutter plugin templates](https://github.com/radareorg/cutter/tree/master/src/plugins)
+### [Cutter plugin templates](https://github.com/rizinorg/cutter/tree/master/src/plugins)
 Python and C++ sample plugins to start with.
 
 **Type**: Plugin  
