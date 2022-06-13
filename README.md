@@ -10,7 +10,7 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
   - [Decompilers](#decompilers)
     - [Ghidra Decompiler](#ghidra-decompiler)
     - [RetDec Decompiler](#retdec-decompiler)
-    - [r2dec](#r2dec)
+    - [jsdec](#jsdec)
   - [Integrations](#integrations)
     - [Jupyter Plugin](#jupyter-plugin)
     - [x64dbgcutter](#x64dbgcutter)
