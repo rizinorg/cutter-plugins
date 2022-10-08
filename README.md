@@ -15,10 +15,11 @@ Want to build your own Plugin for Cutter, or to port an existing one from other 
     - [Jupyter Plugin](#jupyter-plugin)
     - [x64dbgcutter](#x64dbgcutter)
     - [Yara Plugin](#yara-plugin)
-    - [Hyara](#Hyara)
+    - [Hyara](#hyara)
     - [AngrCutter](#angrcutter)
     - [Hobbits Plugin](#hobbits-plugin)
     - [Capa Explorer](#capa-explorer)
+    - [CutterPython](#cutterpython)
   - [Malware Analysis](#malware-analysis)
     - [APT32 Graph Deobfuscator](#apt32-graph-deobfuscator)
     - [Dropshot / StoneDrill Decrypter](#dropshot--stonedrill-decrypter)
@@ -109,6 +110,11 @@ Capa is a framework that uses a well-defined collection of rules to identify cap
 **Type**: Plugin  
 **Status**: Maintained
 
+### [CutterPython](https://github.com/CheckReverse/CutterPython)
+
+A plugin that just adds a button and a shortcut to execute "python script" to Cutter.
+
+**Status**: Maintained
 
 ## Malware Analysis
 
